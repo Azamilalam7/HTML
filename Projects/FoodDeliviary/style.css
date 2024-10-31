@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light gray text */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f; /* Darker header */
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header a {
+    color: #e0e0e0; /* Light gray links */
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+/* Main Section */
+main {
+    padding: 50px;
+}
+
+main section {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: #1e1e1e; /* Dark background for sections */
+}
+
+/* Hero Section */
+main section:first-of-type {
+    background: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') 
+        no-repeat center center / cover;
+    color: #fff;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:first-of-type p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+main section:first-of-type input {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+main section:first-of-type input:hover {
+    background-color: #444;
+}
+
+/* Info Section */
+main section:nth-of-type(2) {
+    background-color: #242424; /* Slightly lighter than body */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+    color: #e0e0e0;
+}
+
+main section:nth-of-type(2) h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.main-features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature {
+    width: 250px;
+    background-color: #1a1a1a; /* Darker cards */
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

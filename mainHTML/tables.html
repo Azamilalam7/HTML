@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        /* CSS styles will go here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Azamil Alam</td>
+                <td>Software Engineer</td>
+                <td>$747,867,846</td>
+            </tr>
+            <tr>
+                <td>Serfort</td>
+                <td>UI/UX</td>
+                <td>$885,846</td>
+            </tr>
+            <tr>
+                <td>Sion</td>
+                <td>Full Stack Developer</td>
+                <td>$57,478,846</td>
+            </tr>
+            <tr>
+                <td>Juluis</td>
+                <td>Data Analystis</td>
+                <td>$34,35,323</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

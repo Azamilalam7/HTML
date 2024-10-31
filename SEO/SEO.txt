@@ -1,0 +1,48 @@
+SEO helps search engine  (and people) find your website easily
+SEO is a long-term strategy that requires ongoing effort and optimization
+
+TYPES OF SEO 
+
+• On page SEO (This can be done by HTML developers). 
+
+Things on your website you control, like titles, images, and links.
+Title Tag:
+<title>Best Homemade Pizza Recipes | Tasty Tips</title>
+(Helps search engines know your page is about pizza recipes.)
+
+Headings:
+
+<h1>How to Make the Perfect Pizza at Home</h1>
+<h2>Ingredients You’ll Need</h2>
+Keyword Placement:
+
+Using words like “pizza recipe” throughout your text.
+(But not too much—Google likes it natural, not spammy!)
+Image Alt Text:
+<img src="pizza.jpg" alt="Cheese pizza with tomato sauce and toppings">
+(Describes images to search engines and helps with accessibility.)
+
+Internal Links:
+Example:
+<a href="/pizza-toppings">Explore Topping Ideas</a>
+(Links to other parts of your website to help visitors explore.)
+
+
+• Off page SEO.
+
+This is like other people talking about your pizza shop or recommending it. 
+It’s about things outside your website that improve your website’s reputation.
+
+Examples:
+Backlinks:
+If another food blogger links to your site:
+<a href="https://your-pizza-site.com">Check out this pizza recipe!</a>
+(More backlinks = Google trusts your site more.)
+
+Social Media Shares:
+People share your recipes on platforms like Instagram or Twitter, saying:
+“Made this delicious pizza from [Your Website]! 🍕”
+
+Google Reviews / Listings:
+You list your pizza business on Google My Business, and customers leave good reviews. 
+This helps your site appear in local searches.

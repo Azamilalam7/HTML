@@ -1,0 +1,117 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .logo{
+    font-size: 34px;
+    color: #f5a623;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links a:hover {
+    color: #f5a623;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+  }
+  
+  .intro h1 span {
+    color: #f5a623;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hire-me {
+    background-color: #f5a623;
+    color: black;
+  }
+  
+  .my-works {
+    background-color: white;
+    color: black;
+  }
+  
+ 
+/* Profile Picture */
+.profile-pic img {
+    border-radius: 10px;  /* Slightly rounded edges for a clean look */
+    width: 350px;         /* Adjust width to fit nicely */
+    height: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Add shadow for emphasis */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-pic img:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px;
+    background-color: #1c1c1c;
+    margin: 50px 0;
+  }
+  
+  .personal-info {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .download-cv {
+    background-color: #f5a623;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+  }
+  
